@@ -9,6 +9,7 @@ use traits::Into;
 
 #[derive(Copy, Drop)]
 enum Message { // TODO: define the different variants used below
+Quit: (), Echo: (felt252), Move: (u32, u32), ChangeColor: (u8, u8, u8)
 }
 
 
